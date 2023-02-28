@@ -1,0 +1,114 @@
+<Laboratory Name="LCFC - EA4495">
+	<Organization Laboratory_Head_Name="SIADAT">
+		<University Name="Ecole Nationale Supérieure d'Arts et Métiers"/>
+		<University Name="Université de Lorraine"/>
+		<Research_Team Name="Conception" Head="DANTAN"/>
+		<Research_Team Name="Fabrication" Head="BIGOT"/>
+		<Research_Team Name="Commande" Head="ABBA"/>
+	</Organization>
+	<Members>
+		<Member FirstName="Régis" Name="BIGOT" Gender="M" BD="1965/03/03" Country="France" Office="B151">
+			<Position Name="Professeur des Universités" Start="2008/09/01"/>
+			<Research_Team Name="Fabrication" Rate="1.0"/>
+		</Member>		
+		<Member FirstName="Gabriel" Name="ABBA" Gender="M" BD="1965/03/03" Country="France" Company="Université de Lorraine" Office="B43">
+			<Position Name="Professeur des Universités" Start="2000/09/01"/>
+			<Research_Team Name="Commande" Rate="1.0"/>
+		</Member>		
+		<Member FirstName="Ali" Name="SIADAT" Gender="M" BD="1965/03/03" Country="France" Office="B156">
+			<Position Name="Professeur des Universités" Start="2016/09/01"/>
+			<Position Name="Maître de conférences" Start="2000/09/01" End="2016/09/01"/>
+			<Research_Team Name="Conception" Rate="1.0"/>
+		</Member>
+		<Member FirstName="Jean-Yves" Name="DANTAN" Gender="M" BD="1970/08/25" Country="France" Office="B150">
+			<Position Name="Professeur des Universités" Start="2015/09/01"/>
+			<Position Name="Maître de conférences" Start="2001/09/01" End="2015/09/01"/>
+			<Research_Team Name="Conception" Rate="1.0"/>
+		</Member>
+		<Member FirstName="Alain" Name="ETIENNE" Gender="M" BD="1980/08/16" Country="France" Office="B150">
+			<Position Name="Maître de conférences" Start="2008/09/01"/>
+			<Position Name="Post-Doctorant" Start="2007/10/01" End="2008/09/01" Company="Université Technologique de Troyes" />
+			<Position Name="Doctorant" Start="2004/09/01" End="2007/10/01"/>
+			<Research_Team Name="Conception" Rate="1.0"/>
+		</Member>
+		<Member FirstName="Cyrille" Name="BAUDOUIN" Gender="M" BD="1977/02/02" Country="France" Office="B50">
+			<Position Name="Maître de conférences" Start="2005/09/01"/>
+			<Research_Team Name="Fabrication" Rate="0.8"/>
+			<Research_Team Name="Conception" Rate="0.2"/>
+		</Member>
+		<Member FirstName="Jelena" Name="PETRONIJEVIC" Gender="F" BD="1998/02/02" Country="Serbie" Office="B158">
+			<Position Name="Maître de conférences" Start="2020/11/02"/>
+			<Position Name="Doctorant" Start="2017/10/02" End="2020/09/22"/>
+			<Research_Team Name="Conception" Rate="1.0"/>
+		</Member>
+		<Member FirstName="Ismail" Name="TALEB" Gender="M" BD="1998/02/02" Country="Maroc" Office="B148">
+			<Position Name="Doctorant" Start="2018/09/01"/>
+			<Research_Team Name="Conception" Rate="1.0"/>
+		</Member>
+		<External_Member FirstName="Rezza" Name="TAVAKKOLI" Gender="M" Country="Iran" Company="University of Tehran">
+			<Stay Start="2014/05/01" End="2004/06/15"/>
+			<Stay Start="2018/01/01" End="2018/03/01"/>
+		</External_Member>
+		<External_Member FirstName="Samuel" Name="BASSETTO" Gender="M" Country="France" Company="Université Polytechnique de Montréal"/>
+	</Members>
+	<Projects>
+		<PhD Name="Maîtrise globale des risques dans un projet de développement de produit" Candidate="PETRONIJEVIC" Start="2017/10/02" Defense_Date="2020/09/22" Place="LCFC-Metz">
+			<PhD_Director Name="SIADAT" Rate="0.5"/>
+			<Supervisor Name="ETIENNE" Rate ="0.5"/>
+			<Supervisor Name="BASSETTO" Rate ="0.0"/>
+			<Jury_Members>
+				<Member Name="Elise VAREILLES" Role="President"/>
+				<Member Name="Franck MARLE" Role="Rapporteur"/>
+				<Member Name="Thierry COUDERT" Role="Rapporteur"/>
+				<Member Name="Kai FURMANS" Role="Examinateur"/>
+				<Member Name="Tyson R. BROWNING" Role="Examinateur"/>
+				<Member Name="Didier GOURC" Role="Examinateur"/>
+			</Jury_Members>
+			<Production Ref="https://doi.org/10.1109/IESM45758.2019.8948097"/>
+		</PhD>
+		<PhD Name="Réduction et exploitation des temps non productifs d’un système de production via la prise en compte des facteurs humains et l’anticipation des variations de cadence, des reconfigurations du système." Candidate="TALEB" Start="2018/09/01" Place="LCFC-Metz">
+			<PhD_Director Name="SIADAT" Rate="0.5"/>
+			<Supervisor Name="ETIENNE" Rate ="0.5"/>
+			<Project_Link Name="Chaire industrielle UIMM/Arts et Métiers" />
+		</PhD>
+		<Project Name="Chaire industrielle UIMM/Arts et Métiers" Expected_End="2021/12/31" Head="DANTAN" Short="Chaire SdP">
+			<Member Name="ETIENNE"/>
+			<Member Name="SIADAT"/>
+			<Member Name="TALEB"/>
+			<Company_Involved Name="UIMM" Funding="300 000"/>
+			<Company_Involved Name="ThyssenKrupp Presta France" Funding="800 000" />
+			<Production Ref="Rapport expérimentation chaire Industrielle"/>
+		</Project>
+	</Projects>
+	<Publications>
+		<Journal_paper Title="Human factors under uncertainty: A manufacturing systems design using simulation-optimisation approach" Journal="CIE" Available ="2018/11/03" DOI="https://doi.org/10.1016/j.cie.2018.11.001">
+			<Author Name="PETRONIJEVIC"/>
+			<Author Name="ETIENNE"/>
+			<Author Name="DANTAN"/>
+		</Journal_paper>
+		<Report Title="Rapport expérimentation chaire Industrielle" Available="2021/04/01">
+			<Author Name="TALEB"/>
+			<Author Name="ETIENNE"/>
+			<Author Name="SIADAT"/>
+		</Report>
+		<Conference Title="Operational Framework for Managing Risk Interactions in Product Development Projects" Available="2020/01/06" Conference_Name="2019 International Conference on Industrial Engineering and Systems Management, IESM 2019" Place="Shanghai, China" Dates="25-27 sept. 2019" DOI="https://doi.org/10.1109/IESM45758.2019.8948097">
+			<Author Name="PETRONIJEVIC"/>
+			<Author Name="ETIENNE"/>
+			<Author Name="SIADAT"/>
+			<Author Name="BASSETTO"/>			
+		</Conference>
+		
+		<Journals>
+			<Journal Name="Computer and Industrial Engineering" Short="CIE">
+				<Performances Year="2020" Quartile="1" IF="4.135"/>
+			</Journal>			
+			<Journal Name="International Journal of Production Research" Short="IJPR">
+				<Performances Year="2020" Quartile="1" IF="4.577"/>
+			</Journal>
+			<Journal Name="International Journal of Advanced Manufacturing Technology" Short="IJAMT">
+				<Performances Year="2020" Quartile="1" IF="1.9"/>
+				<Performances Year="2019" Quartile="2" IF="1.0"/>
+			</Journal>
+		</Journals>
+	</Publications>
+</Laboratory>
